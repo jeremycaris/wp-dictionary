@@ -1,0 +1,57 @@
+.dictionary-menu {
+    text-align: center;
+    margin: 1em 0 0;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+}
+
+.dictionary-menu p {
+    display: none !important;
+}
+
+.dictionary-menu ul {
+    display: inline;
+    margin: 0 !important;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.dictionary-menu ul li {
+    display: inline-block;
+    line-height: 2em;
+}
+
+.dictionary-menu ul li a {
+    text-decoration: none;
+    padding: 0.4em 1.1em;
+}
+
+.dictionary-menu ul li a:hover {
+    background: rgba(0, 0, 0, 1.0);
+    color: rgba(255, 255, 255, 1.0);
+}
+
+.dictionary-menu-mobile {
+    width: 100%;
+}
+
+.dictionary-menu-mobile select {
+    width: 100%;
+}
+
+.dictionary-link {
+    
+}
+
+@media all and (max-width: 767px) {
+    .dictionary-menu {
+        display: none;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .dictionary-menu-mobile {
+        display: none;
+    }
+}
