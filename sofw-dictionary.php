@@ -26,7 +26,7 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 );
 
 
-wp_enqueue_style( 'style', plugins_url( '/css/style.css', __FILE__ ) );
+wp_enqueue_style( 'style', plugins_url( '/assets/css/style.css', __FILE__ ) );
 
 
 function pluginprefix_install()
