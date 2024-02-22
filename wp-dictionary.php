@@ -20,7 +20,7 @@ if (!defined('ABSPATH')) exit();
 
 require 'checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://github.com/jeremycaris/sofw-dictionary/',
+	'https://github.com/jeremycaris/wp-dictionary/',
 	__FILE__,
 	'sofw-dictionary'
 );
